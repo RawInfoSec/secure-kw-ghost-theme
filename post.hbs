@@ -1,0 +1,31 @@
+{{!< default}}
+
+{{> header}}
+<div class="row bg-white">
+    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 centered">
+        <main class="content" role="main">
+            <section class="{{post_class}}">
+                 {{#post}}
+                    <header class="securekw_post_header">         
+                        <h1 class="securekw_post_title">{{{title}}}</h1>
+                    </header>
+                    <hr />
+						<span class="index_date">
+	                    <time datetime="{{date format='DD-MMM-YYYY'}}">{{date format="DD MMM YYYY"}}</time>
+	                    <ul class="tags">
+	                        {{#foreach tags}}
+	                        <li><a href="{{url}}" title="{{name}}" class="tag-{{id}}">{{name}}</a></li>
+	                        {{/foreach}}
+                    	</ul>
+                    </span>
+                    
+                    <hr />
+                    <article style="margin-top: 60px; margin-bottom: 50px;">
+                        {{content}}
+                    </article>
+                 {{/post}}
+            </section> 
+        </main>
+    </div>
+</div>
+{{> footer}}

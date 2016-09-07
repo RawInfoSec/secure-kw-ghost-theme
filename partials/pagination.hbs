@@ -1,0 +1,20 @@
+
+
+	<div class="row bg-white ">
+		<nav class="pagination" role="navigation">
+	        <div class="col-sm-4 col-md-4 col-lg-4">
+		       {{#if prev}}
+			        <a class="newer-posts" href="{{page_url prev}}">&larr; Newer Posts</a>
+			   {{/if}} 
+	        </div>
+	        <div class="col-sm-4 col-md-4 col-lg-4">
+		        <span class="page-number">Page {{page}} of {{pages}}</span>
+	        </div>
+	        <div class="col-sm-4 col-md-4 col-lg-4">
+		        {{#if next}}
+			        <a class="older-posts" href="{{page_url next}}">Older Posts &rarr;</a>
+			    {{/if}}
+	        </div>
+		</nav>
+	</div>
+	        

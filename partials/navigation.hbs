@@ -1,0 +1,43 @@
+		<ul class="nav navbar-nav">			
+	        	<li>
+		        	<a href="/" class="anim">
+			        	<img src="{{asset "images/blacklogo.png"}}" width="25px" />{{@blog.title}}
+			        </a>
+		        </li>
+		        {{#foreach navigation}}
+		        	<li>
+			        	<a href="{{url absolute="true"}}" class="anim">
+				        	{{label}}
+				        </a>
+			        </li>
+				{{/foreach}}
+		</ul>
+		
+		<ul class="nav navbar-nav lastnav">
+				<li class="lastnavs">
+		        	<a href="">
+			        	<i class="fa fa-twitter-square"></i>
+		        	</a>
+				</li>
+				<li class="lastnavs">
+		        	<a href="">
+			        	<i class="fa fa-facebook-square"></i>
+		        	</a>
+				</li>
+				<li class="lastnavs">
+		        	<a href="">
+			        	<i class="fa fa-linkedin-square"></i>
+		        	</a>
+				</li>
+				<li class="lastnavs">		        	
+		        	<a href="">
+			        	<i class="fa fa-envelope-square"></i>
+		        	</a>
+				</li>
+				<li class="lastnavs">		        	
+		        	<a href="">
+			        	<i class="fa fa-rss-square"></i>
+		        	</a>
+				</li>
+		</ul>
+		
