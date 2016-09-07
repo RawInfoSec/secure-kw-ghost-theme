@@ -9,6 +9,10 @@ Uses:
 
 Please note that the site will eventually branch on it's own, leaving this repo for other users wanting to use the basic building blocks found here.
 
+## Licence
+
+GPLv3: Feel free to use, beautify, mangle or wreck my work, but always keep your source available.
+
 ## Screenshots
 
 ![shot1](https://cloud.githubusercontent.com/assets/12751893/18296244/438f8124-7476-11e6-9a65-db2dcdc34a21.png)
