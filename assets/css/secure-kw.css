@@ -376,9 +376,12 @@ footer {
 
 
 
-.index_post_content:after {
+.index_post_content-disabled:after {
 	content: '... \00bb';
 	color: #999;
+}
+.read-more {
+	color: #38251e;
 }
 
 .pagination {
